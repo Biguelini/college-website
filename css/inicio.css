@@ -17,15 +17,14 @@ p {
   line-height: 2rem;
 }
 footer{
-  width: 100vw;
-  position: fixed;
+  position: absolute;
   bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 footer p {
   font-size: 16px;
   color: var(--dark);
-  width: 320px;
-  margin: 0 auto 10px auto;
 }
 footer p a,
 footer p a:hover,
