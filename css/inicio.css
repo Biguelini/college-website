@@ -16,25 +16,7 @@ p {
   font-size: 2rem;
   line-height: 2rem;
 }
-footer{
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-footer p {
-  font-size: 16px;
-  color: var(--dark);
-}
-footer p a,
-footer p a:hover,
-footer p a:visited,
-footer p a:focus {
-  color: var(--dark);
-  text-decoration: none;
-  cursor: pointer;
-  font-weight: 600;
-}
+
 @media only screen and (max-width: 600px) {
   * {
     background: var(--dark) url("../images/bg.svg") no-repeat right bottom fixed;
