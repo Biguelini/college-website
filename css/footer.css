@@ -1,23 +1,23 @@
-footer{
-    position: absolute !important;
-    bottom: 0 !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%) !important;
-    width: 318px !important;
-    background: var(--principal) !important;
-  }
-  footer p {
-    font-size: 16px !important;
-    color: var(--dark) !important;
-    background: none !important;
-  }
-  footer p a,
-  footer p a:hover,
-  footer p a:visited,
-  footer p a:focus {
-    color: var(--dark) !important;
-    text-decoration: none !important;
-    cursor: pointer !important;
-    font-weight: 600 !important;
-    background: none !important;
-  }
+footer {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 318px !important;
+  background: var(--principal) !important;
+}
+footer p {
+  font-size: 16px !important;
+  color: var(--dark) !important;
+  background: none !important;
+}
+footer p a,
+footer p a:hover,
+footer p a:visited,
+footer p a:focus {
+  color: var(--dark) !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  font-weight: 600 !important;
+  background: none !important;
+}
