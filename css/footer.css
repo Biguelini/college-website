@@ -1,22 +1,22 @@
 footer {
-  position: absolute !important;
-  bottom: 0 !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
-  background: var(--principal) !important;
+  position: fixed;
+  bottom: 2%;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 footer p {
-  font-size: 16px !important;
-  color: var(--dark) !important;
-  background: none !important;
+  font-size: 16px;
+  color: var(--dark);
 }
 footer p a,
 footer p a:hover,
 footer p a:visited,
 footer p a:focus {
-  color: var(--dark) !important;
-  text-decoration: none !important;
-  cursor: pointer !important;
-  font-weight: 600 !important;
-  background: none !important;
+  color: var(--dark);
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
 }

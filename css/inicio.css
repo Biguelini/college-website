@@ -19,7 +19,6 @@ p {
 
 @media only screen and (max-width: 600px) {
   body {
-    background: var(--dark) url("../images/bg.svg") no-repeat right bottom fixed;
     background-size: 200vw;
   }
   h1 {
