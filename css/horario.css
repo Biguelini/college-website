@@ -39,6 +39,9 @@ h1 {
   color: var(--dark);
   font-weight: 600;
 }
+.card span {
+  color: var(--light);
+}
 ::-webkit-scrollbar {
   width: 0px;
 }
