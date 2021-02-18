@@ -40,7 +40,7 @@ h1 {
   font-weight: 600;
 }
 .card span {
-  color: var(--light);
+  font-weight: 700;
 }
 ::-webkit-scrollbar {
   width: 0px;
